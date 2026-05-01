@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/CSS/Project.css" />
+  <title>Project</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="logo">MuhilanOrg</div>
+
+    <div class="search-bar">
+      <input type="text" id="Search-input" placeholder="Search products" />
+    </div>
+
+    <div class="cart-icon" id="cart-icon">
+      🛒
+      <span class="cart-count" id="cart-count">0</span>
+    </div>
+  </header>
+
+  <main class="main-content container">
+    <div class="search-info" id="search-info"></div>
+    <div class="product-grid" id="product-grid">
+      <!-- Produtos inseridos via JS -->
+    </div>
+  </main>
+
+  <!-- Overlay (escurecimento + blur) -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- Sidebar do carrinho -->
+  <aside class="cart-sidebar" id="cart-sidebar">
+    <button class="close-btn" id="close-cart">&times;</button>
+
+    <h2>Your Cart</h2>
+
+    <div id="cart-items-container"></div>
+
+    <div class="cart-total">
+      <span>Total: $<span id="cart-total">0.00</span></span>
+      <button id="checkout-btn">Checkout</button>
+    </div>
+  </aside>
+
+  <script src="/JS/Project.js"></script>
+</body>
+</html>
