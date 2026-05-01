@@ -10,4 +10,4 @@
 ✅ Arquitetura pronta para escalar
 
 # Para Rodar o Server, Dê o Comando "node server.js" No Terminal 
-Para "API running on http://localhost:3000". 
+Para "API running on http://localhost:3000/products". 
