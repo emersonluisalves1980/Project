@@ -1,6 +1,6 @@
 # Project
 
-# projeto Apresenta:
+# project Apresenta:
 ✅ UX moderna (fly-to-cart + easing avançado)
 ✅ Persistência real (localStorage)
 ✅ Controle de quantidade
